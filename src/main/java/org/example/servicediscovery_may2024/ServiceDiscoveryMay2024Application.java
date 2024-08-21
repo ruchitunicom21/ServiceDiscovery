@@ -1,4 +1,4 @@
-package org.example.servicediscovery;
+package org.example.servicediscovery_may2024;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
 @EnableEurekaServer
-public class ServiceDiscoveryApplication {
+public class ServiceDiscoveryMay2024Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(ServiceDiscoveryApplication.class, args);
+        SpringApplication.run(ServiceDiscoveryMay2024Application.class, args);
     }
 
 }
